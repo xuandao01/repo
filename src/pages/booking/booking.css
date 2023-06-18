@@ -1,0 +1,156 @@
+.main-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.booking-container {
+  min-height: 75vh;
+  padding: 30px 180px 60px;
+}
+.booking-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-booking {
+  width: 90%;
+  height: max-content;
+  background-color: rgb(240, 238, 238);
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px 40px;
+  display: grid;
+  gap: 10px 20px;
+}
+.col {
+  /* border-right: 1px solid #eee; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.price {
+  height: 70px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.new-price span {
+  font-size: 16px;
+  color: #777;
+}
+.final-money {
+  font-size: 18px;
+  font-weight: 600;
+  color: #777;
+  padding-top: 10px;
+}
+
+.booked-time {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.booked-time > h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.time-list-container {
+  padding: 10px;
+}
+.time-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.time-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.payment {
+  padding: 20px 180px;
+}
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.payment-container h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.payment-img {
+  width: 40%;
+  height: 40%;
+}
+.payment-img img {
+  width: 100%;
+  height: 100%;
+}
+.state {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: orange;
+}
+
+/*  */
+.booking-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.homestay-list-booking {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+}
+
+.item-booking {
+  width: 100%;
+  height: max-content;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border: 4px solid #777;
+  border-radius: 10px;
+}
+.date-booking {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.price-booking {
+  height: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.price-booking span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f0b350;
+}
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.confirmed > b {
+  color: green;
+}
+.booked > b {
+  color: red;
+}

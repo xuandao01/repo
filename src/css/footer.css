@@ -1,0 +1,20 @@
+.footer {
+  background-color: #20274d;
+  color: #fff;
+  width: 100%;
+  padding: 40px 180px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  color: #fff;
+}
+
+.company {
+  color: #fff;
+}

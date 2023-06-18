@@ -1,0 +1,60 @@
+.booking-manager {
+  display: flex;
+}
+.booking-manager_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-left: 200px;
+  margin-bottom: 60px;
+}
+.title-manager-booking {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.list-booking.admin {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.item-booking {
+  position: relative;
+}
+.timeline {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 16px;
+}
+.admin-button-block {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.action {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.reload {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #3395ff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+}
+.admin-status.confirmed > b {
+  color: green;
+}
+.admin-status.booked > b {
+  color: red;
+}
